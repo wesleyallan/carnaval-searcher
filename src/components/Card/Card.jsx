@@ -5,7 +5,7 @@ const Card = ({ banner, title, city, children }) => {
   return (
     <S.Card>
       <S.ContainerImg>
-        <img src={banner} alt="Banner do bloco de carnaval" />
+        <S.Banner src={banner} alt="Banner do bloco de carnaval" />
       </S.ContainerImg>
       <S.Title>{title}</S.Title>
       <p>{children}</p>

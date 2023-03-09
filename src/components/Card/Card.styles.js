@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Card = styled.article`
-  width: 38.4rem;
+  width: 100%;
   height: 32.3rem;
   display: flex;
   flex-direction: column;
@@ -43,4 +43,8 @@ export const ContainerLocation = styled.div`
   display: flex;
   align-items: center;
   gap: 0.8rem;
+`;
+
+export const Banner = styled.img`
+  width: 100%;
 `;
