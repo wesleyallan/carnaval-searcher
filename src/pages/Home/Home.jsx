@@ -2,7 +2,7 @@ import { Outlet, Navigate, useLocation, useNavigate } from 'react-router-dom';
 import Input from '../../components/Input';
 import Select from '../../components/Select';
 import chevronDown from '../../assets/chevron-down.svg';
-import search from '../../assets/search.svg';
+import searchIcon from '../../assets/search.svg';
 import locate from '../../assets/locate.svg';
 import data from '../../data/data.json';
 import * as S from './Home.styles';
@@ -31,7 +31,7 @@ const Home = () => {
           <S.Form method="GET">
             <Input
               id="name"
-              icon={search}
+              icon={searchIcon}
               type="text"
               name="name"
               placeholder="Pesquise por nome"
