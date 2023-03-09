@@ -2,7 +2,7 @@
   <img src="./hi.gif" alt="Mão acenando" width="30px">
   #boraCodar 07 - Carnaval Searcher
 </h1>
-<p align="center">🌐🚀 Resoluções e correções do desafios 07, um projeto de pesquisa de blocos de carnaval.</p>
+<p align="center">🌐🚀 Resoluções do desafios 07, um projeto de pesquisa de blocos de carnaval.</p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
