@@ -6,7 +6,7 @@
       "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
       "location": "São Paulo - SP",
       "locationId": 1,
-      "img": "/src/assets/card-1.jpg",
+      "img": "https://raw.githubusercontent.com/wesleyallan/carnaval-searcher/master/src/assets/card-1.jpg",
       "coordinates": [-23.5589, -46.6488]
     },
     {
@@ -15,7 +15,7 @@
       "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
       "location": "Florianópolis - SC",
       "locationId": 2,
-      "img": "/src/assets/card-2.jpg",
+      "img": "https://raw.githubusercontent.com/wesleyallan/carnaval-searcher/master/src/assets/card-2.jpg",
       "coordinates": [-27.5948, -48.5569]
     },
     {
@@ -24,7 +24,7 @@
       "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
       "location": "Curitiba - PR",
       "locationId": 3,
-      "img": "/src/assets/card-3.jpg",
+      "img": "https://raw.githubusercontent.com/wesleyallan/carnaval-searcher/master/src/assets/card-3.jpg",
       "coordinates": [-25.4372, -49.2700]
     },
     {
@@ -33,7 +33,7 @@
       "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
       "location": "Salvador - BA",
       "locationId": 4,
-      "img": "/src/assets/card-4.jpg",
+      "img": "https://raw.githubusercontent.com/wesleyallan/carnaval-searcher/master/src/assets/card-4.jpg",
       "coordinates": [-12.9777, -38.5016]
     },
     {
@@ -42,7 +42,7 @@
       "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
       "location": "São Paulo - SP",
       "locationId": 1,
-      "img": "/src/assets/card-5.jpg",
+      "img": "https://raw.githubusercontent.com/wesleyallan/carnaval-searcher/master/src/assets/card-5.jpg",
       "coordinates": [-23.5789, -46.6388]
     },
     {
@@ -51,7 +51,7 @@
       "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
       "location": "São Paulo - SP",
       "locationId": 1,
-      "img": "/src/assets/card-6.jpg",
+      "img": "https://raw.githubusercontent.com/wesleyallan/carnaval-searcher/master/src/assets/card-6.jpg",
       "coordinates": [-23.5489, -46.6488]
     },
     {
@@ -60,7 +60,7 @@
       "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
       "location": "Rio de Janeiro - RJ",
       "locationId": 5,
-      "img": "/src/assets/card-7.jpg",
+      "img": "https://raw.githubusercontent.com/wesleyallan/carnaval-searcher/master/src/assets/card-7.jpg",
       "coordinates": [-22.9035, -43.2096]
     },
     {
@@ -69,7 +69,7 @@
       "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
       "location": "Porto Alegre - RS",
       "locationId": 6,
-      "img": "/src/assets/card-8.jpg",
+      "img": "https://raw.githubusercontent.com/wesleyallan/carnaval-searcher/master/src/assets/card-8.jpg",
       "coordinates": [-30.0277, -51.2287]
     },
     {
@@ -78,7 +78,7 @@
       "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
       "location": "São Paulo - SP",
       "locationId": 1,
-      "img": "/src/assets/card-9.jpg",
+      "img": "https://raw.githubusercontent.com/wesleyallan/carnaval-searcher/master/src/assets/card-9.jpg",
       "coordinates": [-23.5489, -46.6388]
     }
   ]
