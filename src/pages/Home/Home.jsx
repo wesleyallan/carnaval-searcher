@@ -21,8 +21,6 @@ const Home = () => {
 
   useEffect(() => {
     const element = document.querySelector('.size-opacity-off');
-    element.classList.remove('size-opacity-on');
-
     const observer = new IntersectionObserver((elements) => {
       elements.forEach((element) => {
         if (element.isIntersecting) {
@@ -66,6 +64,10 @@ const Home = () => {
               type="submit"
               onClick={(e) => {
                 e.preventDefault();
+                const elements = Array.from(
+                  document.querySelectorAll('article.size-opacity-off')
+                );
+                elements.forEach((e) => e.classList.remove('size-opacity-on'));
                 const name = document.getElementById('name').value;
                 const city = document.getElementById('city').value;
                 navigate(`?name=${name}&city=${city}`, { replace: true });
