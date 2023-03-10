@@ -11,6 +11,7 @@ export const Card = styled.article`
   overflow: hidden;
   color: ${({ theme }) => theme.colors.black700};
   transition: all 0.2s ease;
+  cursor: pointer;
   &:hover {
     border-color: ${({ theme }) => theme.colors.purple300};
     transform: scale(1.05);
