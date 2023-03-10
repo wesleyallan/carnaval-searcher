@@ -43,7 +43,7 @@ Tecnologias utilizadas no desenvolvimento no código do projeto.
 
 ## 🔧 Ferramentas
 
-Ferramentas utilizadas para o desenvolvimento e ou manutenção do código do projeto.
+Ferramentas utilizadas para o desenvolvimento e manutenção do código do projeto.
 
 - Visual Studio Code
 - Vite
