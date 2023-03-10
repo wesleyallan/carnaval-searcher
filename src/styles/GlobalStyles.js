@@ -35,4 +35,16 @@ export default createGlobalStyle`
     background: ${({ theme }) => theme.colors.purple300};
     border-radius: 0.3rem;
   }
+
+  .size-opacity-off {
+    opacity: 0;
+    transform: translateY(20%);
+    transition: all .5s linear;
+  }
+
+  .size-opacity-on {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.5 linear;
+  }
 `;

@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Outlet, Navigate, useLocation, useNavigate } from 'react-router-dom';
 import Input from '../../components/Input';
 import Select from '../../components/Select';
@@ -18,10 +19,25 @@ const Home = () => {
     );
   });
 
+  useEffect(() => {
+    const element = document.querySelector('.size-opacity-off');
+    element.classList.remove('size-opacity-on');
+
+    const observer = new IntersectionObserver((elements) => {
+      elements.forEach((element) => {
+        if (element.isIntersecting) {
+          element.target.classList.add('size-opacity-on');
+        }
+      });
+    });
+
+    observer.observe(element);
+  }, []);
+
   return (
     <>
       <S.Header>
-        <S.HeaderContent>
+        <S.HeaderContent className="size-opacity-off">
           <S.Message>find your block</S.Message>
           <S.TitleContainer>
             <S.Title>
@@ -62,8 +78,10 @@ const Home = () => {
       </S.Header>
       <S.ContentContainer>
         <S.ContentHeader>
-          <S.ContentTitle>Blocos Recomendados</S.ContentTitle>
-          <S.Menu>
+          <S.ContentTitle className="size-opacity-off">
+            Blocos Recomendados
+          </S.ContentTitle>
+          <S.Menu className="size-opacity-off">
             <S.MenuItem to={`./list${search}`}>Lista</S.MenuItem>
             <S.MenuItem to={`./map${search}`}>Mapa</S.MenuItem>
           </S.Menu>

@@ -6,7 +6,6 @@ const CarnavalContext = createContext();
 
 export const CarnavalProvider = ({ children }) => {
   const [blocks, setBlocks] = useState(data.blocos);
-  console.log(blocks);
   const { search } = useLocation();
 
   useEffect(() => {
