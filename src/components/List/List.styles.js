@@ -8,5 +8,9 @@ export const Content = styled.main`
   gap: 3.2rem;
   @media (max-width: 948px) {
     justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  }
+  @media (max-width: 420px) {
+    grid-template-columns: 1fr;
   }
 `;

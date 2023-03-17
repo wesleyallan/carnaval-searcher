@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Card = styled.article`
   width: 100%;
+  max-width: 72rem;
   height: 32.3rem;
   display: flex;
   flex-direction: column;
