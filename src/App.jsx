@@ -1,24 +1,15 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
-import Home from './pages/Home';
-import List from './components/List';
-import Map from './components/Map';
-import NotFound from './pages/NotFound';
 import GlobalStyles from './styles/GlobalStyles';
 import Light from './themes/Light';
+import Router from './router';
 
 const App = () => {
   return (
     <ThemeProvider theme={Light}>
       <GlobalStyles />
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />}>
-            <Route path="/list" element={<List />} />
-            <Route path="/map" element={<Map />} />
-          </Route>
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        <Router />
       </BrowserRouter>
     </ThemeProvider>
   );
